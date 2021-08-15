@@ -2,14 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1dcf574f-41fa-4879-b4ec-7597fff650ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/$CACHE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-coupon-service/src/main/java/com/lh/coupon/CouponApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-coupon-service/src/main/java/com/lh/coupon/CouponApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-coupon-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shop-coupon-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-coupon-service/src/main/resources/com.lh.coupon.mapper/TradeCouponMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-coupon-service/src/main/resources/com.lh.coupon.mapper/TradeCouponMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-coupon-service/src/test/java/com/lh/coupon/CouponApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-coupon-service/src/test/java/com/lh/coupon/CouponApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-goods-service/src/main/java/com/lh/goods/GoodsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-goods-service/src/main/java/com/lh/goods/GoodsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-goods-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shop-goods-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-goods-service/src/main/resources/com.lh.goods.mapper/TradeGoodsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-goods-service/src/main/resources/com.lh.goods.mapper/TradeGoodsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-goods-service/src/main/resources/com.lh.goods.mapper/TradeGoodsNumberLogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-goods-service/src/main/resources/com.lh.goods.mapper/TradeGoodsNumberLogMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-goods-service/src/test/java/com/lh/goods/GoodsApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-goods-service/src/test/java/com/lh/goods/GoodsApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-order-service/src/main/java/com/lh/order/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order-service/src/main/java/com/lh/order/OrderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-order-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-order-service/src/main/resources/com.lh.order.mapper/TradeOrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order-service/src/main/resources/com.lh.order.mapper/TradeOrderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-order-service/src/test/java/com/lh/order/OrderApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order-service/src/test/java/com/lh/order/OrderApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-pay-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shop-pay-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-pay-service/src/main/resources/com.lh.pay.mapper/TradePayMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-pay-service/src/main/resources/com.lh.pay.mapper/TradePayMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-pay-service/src/test/java/com/lh/pay/PayApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-pay-service/src/test/java/com/lh/pay/PayApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user-service/src/main/java/com/lh/user/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user-service/src/main/java/com/lh/user/UserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user-service/src/main/java/com/lh/user/mapper/TradeUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user-service/src/main/java/com/lh/user/mapper/TradeUserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user-service/src/main/resources/com.lh.user.mapper/TradeUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user-service/src/main/resources/com.lh.user.mapper/TradeUserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user-service/src/main/resources/com.lh.user.mapper/TradeUserMoneyLogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user-service/src/main/resources/com.lh.user.mapper/TradeUserMoneyLogMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user-service/src/test/java/com/lh/user/UserApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user-service/src/test/java/com/lh/user/UserApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +65,10 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -58,6 +78,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="service.view.auto.scroll.to.source" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -83,7 +104,39 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.CouponApplication">
+  <component name="RunManager" selected="JUnit.OrderApplicationTests.confirmOrder">
+    <configuration name="OrderApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shop-order-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lh.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lh.order" />
+      <option name="MAIN_CLASS_NAME" value="com.lh.order.OrderApplicationTests" />
+      <option name="METHOD_NAME" value="confirmOrder" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplicationTests.confirmOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shop-order-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lh.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lh.order" />
+      <option name="MAIN_CLASS_NAME" value="com.lh.order.OrderApplicationTests" />
+      <option name="METHOD_NAME" value="confirmOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CouponApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="shop-coupon-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lh.coupon.CouponApplication" />
@@ -133,6 +186,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.OrderApplicationTests.confirmOrder" />
+        <item itemvalue="JUnit.OrderApplicationTests" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -145,8 +204,16 @@
       <option name="presentableId" value="Default" />
       <updated>1628958723018</updated>
       <workItem from="1628958727088" duration="4339000" />
-      <workItem from="1628963089082" duration="10496000" />
+      <workItem from="1628963089082" duration="16955000" />
     </task>
+    <task id="LOCAL-00001" summary="第一次提交">
+      <created>1628999305749</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1628999305749</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +224,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
+    <MESSAGE value="第一次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第一次提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="328" y="86" key="#Project_Structure" timestamp="1628966591256">
@@ -167,19 +236,71 @@
       <screen x="0" y="25" width="1680" height="969" />
     </state>
     <state x="653" y="218" key="#com.intellij.ide.util.MemberChooser/0.25.1680.969@0.25.1680.969" timestamp="1628969210707" />
-    <state x="321" y="80" key="CommitChangelistDialog2" timestamp="1628998246302">
+    <state x="321" y="80" key="CommitChangelistDialog2" timestamp="1628999305434">
       <screen x="0" y="25" width="1680" height="970" />
     </state>
-    <state x="321" y="80" key="CommitChangelistDialog2/0.25.1680.970@0.25.1680.970" timestamp="1628998246302" />
+    <state x="321" y="80" key="CommitChangelistDialog2/0.25.1680.970@0.25.1680.970" timestamp="1628999305434" />
+    <state width="1329" height="347" key="GridCell.Tab.0.bottom" timestamp="1629006985932">
+      <screen x="0" y="25" width="1680" height="970" />
+    </state>
+    <state width="1329" height="347" key="GridCell.Tab.0.bottom/0.25.1680.969@0.25.1680.969" timestamp="1629002118469" />
+    <state width="1329" height="347" key="GridCell.Tab.0.bottom/0.25.1680.970@0.25.1680.970" timestamp="1629006985932" />
+    <state width="1329" height="347" key="GridCell.Tab.0.center" timestamp="1629006985932">
+      <screen x="0" y="25" width="1680" height="970" />
+    </state>
+    <state width="1329" height="347" key="GridCell.Tab.0.center/0.25.1680.969@0.25.1680.969" timestamp="1629002118468" />
+    <state width="1329" height="347" key="GridCell.Tab.0.center/0.25.1680.970@0.25.1680.970" timestamp="1629006985932" />
+    <state width="1329" height="347" key="GridCell.Tab.0.left" timestamp="1629006985931">
+      <screen x="0" y="25" width="1680" height="970" />
+    </state>
+    <state width="1329" height="347" key="GridCell.Tab.0.left/0.25.1680.969@0.25.1680.969" timestamp="1629002118467" />
+    <state width="1329" height="347" key="GridCell.Tab.0.left/0.25.1680.970@0.25.1680.970" timestamp="1629006985931" />
+    <state width="1329" height="347" key="GridCell.Tab.0.right" timestamp="1629006985932">
+      <screen x="0" y="25" width="1680" height="970" />
+    </state>
+    <state width="1329" height="347" key="GridCell.Tab.0.right/0.25.1680.969@0.25.1680.969" timestamp="1629002118468" />
+    <state width="1329" height="347" key="GridCell.Tab.0.right/0.25.1680.970@0.25.1680.970" timestamp="1629006985932" />
+    <state width="1329" height="347" key="GridCell.Tab.1.bottom" timestamp="1629006985933">
+      <screen x="0" y="25" width="1680" height="970" />
+    </state>
+    <state width="1329" height="347" key="GridCell.Tab.1.bottom/0.25.1680.969@0.25.1680.969" timestamp="1629002118470" />
+    <state width="1329" height="347" key="GridCell.Tab.1.bottom/0.25.1680.970@0.25.1680.970" timestamp="1629006985933" />
+    <state width="1329" height="347" key="GridCell.Tab.1.center" timestamp="1629006985933">
+      <screen x="0" y="25" width="1680" height="970" />
+    </state>
+    <state width="1329" height="347" key="GridCell.Tab.1.center/0.25.1680.969@0.25.1680.969" timestamp="1629002118470" />
+    <state width="1329" height="347" key="GridCell.Tab.1.center/0.25.1680.970@0.25.1680.970" timestamp="1629006985933" />
+    <state width="1329" height="347" key="GridCell.Tab.1.left" timestamp="1629006985933">
+      <screen x="0" y="25" width="1680" height="970" />
+    </state>
+    <state width="1329" height="347" key="GridCell.Tab.1.left/0.25.1680.969@0.25.1680.969" timestamp="1629002118469" />
+    <state width="1329" height="347" key="GridCell.Tab.1.left/0.25.1680.970@0.25.1680.970" timestamp="1629006985933" />
+    <state width="1329" height="347" key="GridCell.Tab.1.right" timestamp="1629006985933">
+      <screen x="0" y="25" width="1680" height="970" />
+    </state>
+    <state width="1329" height="347" key="GridCell.Tab.1.right/0.25.1680.969@0.25.1680.969" timestamp="1629002118470" />
+    <state width="1329" height="347" key="GridCell.Tab.1.right/0.25.1680.970@0.25.1680.970" timestamp="1629006985933" />
     <state x="349" y="144" key="SettingsEditor" timestamp="1628998357653">
       <screen x="0" y="25" width="1680" height="970" />
     </state>
     <state x="349" y="144" key="SettingsEditor/0.25.1680.969@0.25.1680.969" timestamp="1628964242210" />
     <state x="349" y="144" key="SettingsEditor/0.25.1680.970@0.25.1680.970" timestamp="1628998357653" />
+    <state x="440" y="245" key="Vcs.Push.Dialog.v2" timestamp="1628999307886">
+      <screen x="0" y="25" width="1680" height="970" />
+    </state>
+    <state x="440" y="245" key="Vcs.Push.Dialog.v2/0.25.1680.970@0.25.1680.970" timestamp="1628999307886" />
+    <state x="541" y="234" width="597" height="548" key="find.popup" timestamp="1629004573343">
+      <screen x="0" y="25" width="1680" height="970" />
+    </state>
+    <state x="541" y="234" width="597" height="548" key="find.popup/0.25.1680.970@0.25.1680.970" timestamp="1629004573343" />
     <state x="246" y="168" key="new project wizard" timestamp="1628960109845">
       <screen x="0" y="25" width="1680" height="968" />
     </state>
     <state x="246" y="168" key="new project wizard/0.25.1680.967@0.25.1680.967" timestamp="1628959105693" />
     <state x="246" y="168" key="new project wizard/0.25.1680.968@0.25.1680.968" timestamp="1628960109845" />
+    <state x="490" y="229" width="700" height="530" key="recent.locations.popup" timestamp="1629004562604">
+      <screen x="0" y="25" width="1680" height="970" />
+    </state>
+    <state x="490" y="229" width="700" height="530" key="recent.locations.popup/0.25.1680.970@0.25.1680.970" timestamp="1629004562604" />
   </component>
 </project>

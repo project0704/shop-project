@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.lh.shop.mapper.TradeOrderMapper" >
+<mapper namespace="com.lh.order.mapper.TradeOrderMapper" >
   <resultMap id="BaseResultMap" type="com.lh.shop.pojo.TradeOrder" >
     <id column="order_id" property="orderId" jdbcType="BIGINT" />
     <result column="user_id" property="userId" jdbcType="BIGINT" />

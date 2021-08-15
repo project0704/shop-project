@@ -2,10 +2,11 @@ package com.lh.user.mapper;
 
 import com.lh.shop.pojo.TradeUser;
 import com.lh.shop.pojo.TradeUserExample;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
-
+@Mapper
 public interface TradeUserMapper {
     int countByExample(TradeUserExample example);
 
