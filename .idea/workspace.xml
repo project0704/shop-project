@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1dcf574f-41fa-4879-b4ec-7597fff650ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/$CACHE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-project.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectId" id="1wj4a3GrNu1CbmVBA9hfblAQzgj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/shop-user-service/src/main/resources/com.lh.user.mapper" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lh.user.mapper" />
+      <recent name="com.lh.goods.mapper" />
+      <recent name="com.lh.api" />
+      <recent name="com.lh.pay.mapper" />
+      <recent name="com.lh.order.mapper" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/shop-user-service/src/main/resources/com.lh.user.mapper" />
+      <recent name="$PROJECT_DIR$/shop-pay-service/src/main/resources/com.lh.pay.mapper" />
+      <recent name="$PROJECT_DIR$/shop-goods-service/src/main/resources/com.lh.goods.mapper" />
+      <recent name="$PROJECT_DIR$/shop-goods-service/src/main/java/com/lh/goods/service/impl" />
+      <recent name="$PROJECT_DIR$/shop-pojo/src/main/java/com/lh/entity" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CouponApplication">
+    <configuration name="CouponApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shop-coupon-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lh.coupon.CouponApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoodsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shop-goods-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lh.goods.GoodsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shop-order-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lh.order.OrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shop-pay-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lh.pay.PayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopOrderWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shop-order-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lh.order.web.ShopOrderWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopPayWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shop-pay-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lh.pay.web.ShopPayWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shop-user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lh.user.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1dcf574f-41fa-4879-b4ec-7597fff650ad" name="Default Changelist" comment="" />
+      <created>1628958723018</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628958723018</updated>
+      <workItem from="1628958727088" duration="4339000" />
+      <workItem from="1628963089082" duration="10496000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="328" y="86" key="#Project_Structure" timestamp="1628966591256">
+      <screen x="0" y="25" width="1680" height="969" />
+    </state>
+    <state x="328" y="86" key="#Project_Structure/0.25.1680.969@0.25.1680.969" timestamp="1628966591256" />
+    <state x="653" y="218" key="#com.intellij.ide.util.MemberChooser" timestamp="1628969210707">
+      <screen x="0" y="25" width="1680" height="969" />
+    </state>
+    <state x="653" y="218" key="#com.intellij.ide.util.MemberChooser/0.25.1680.969@0.25.1680.969" timestamp="1628969210707" />
+    <state x="321" y="80" key="CommitChangelistDialog2" timestamp="1628998246302">
+      <screen x="0" y="25" width="1680" height="970" />
+    </state>
+    <state x="321" y="80" key="CommitChangelistDialog2/0.25.1680.970@0.25.1680.970" timestamp="1628998246302" />
+    <state x="349" y="144" key="SettingsEditor" timestamp="1628998357653">
+      <screen x="0" y="25" width="1680" height="970" />
+    </state>
+    <state x="349" y="144" key="SettingsEditor/0.25.1680.969@0.25.1680.969" timestamp="1628964242210" />
+    <state x="349" y="144" key="SettingsEditor/0.25.1680.970@0.25.1680.970" timestamp="1628998357653" />
+    <state x="246" y="168" key="new project wizard" timestamp="1628960109845">
+      <screen x="0" y="25" width="1680" height="968" />
+    </state>
+    <state x="246" y="168" key="new project wizard/0.25.1680.967@0.25.1680.967" timestamp="1628959105693" />
+    <state x="246" y="168" key="new project wizard/0.25.1680.968@0.25.1680.968" timestamp="1628960109845" />
+  </component>
+</project>
