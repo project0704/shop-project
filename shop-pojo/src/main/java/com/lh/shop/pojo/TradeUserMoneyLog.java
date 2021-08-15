@@ -1,9 +1,10 @@
 package com.lh.shop.pojo;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Date;
 
-public class TradeUserMoneyLog extends com.lh.shop.pojo.TradeUserMoneyLogKey {
+public class TradeUserMoneyLog extends com.lh.shop.pojo.TradeUserMoneyLogKey implements Serializable {
     private BigDecimal useMoney;
 
     private Date createTime;

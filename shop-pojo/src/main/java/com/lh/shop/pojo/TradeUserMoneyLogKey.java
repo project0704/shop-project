@@ -1,6 +1,8 @@
 package com.lh.shop.pojo;
 
-public class TradeUserMoneyLogKey {
+import java.io.Serializable;
+
+public class TradeUserMoneyLogKey implements Serializable {
     private Long userId;
 
     private Long orderId;

@@ -1,8 +1,9 @@
 package com.lh.shop.pojo;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class TradeGoodsNumberLog extends com.lh.shop.pojo.TradeGoodsNumberLogKey {
+public class TradeGoodsNumberLog extends com.lh.shop.pojo.TradeGoodsNumberLogKey implements Serializable {
     private Integer goodsNumber;
 
     private Date logTime;

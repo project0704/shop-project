@@ -1,9 +1,10 @@
 package com.lh.shop.pojo;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Date;
 
-public class TradeCoupon {
+public class TradeCoupon implements Serializable {
     private Long couponId;
 
     private BigDecimal couponPrice;

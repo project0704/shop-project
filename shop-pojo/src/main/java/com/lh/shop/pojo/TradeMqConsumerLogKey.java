@@ -1,6 +1,8 @@
 package com.lh.shop.pojo;
 
-public class TradeMqConsumerLogKey {
+import java.io.Serializable;
+
+public class TradeMqConsumerLogKey implements Serializable {
     private String groupName;
 
     private String msgTag;

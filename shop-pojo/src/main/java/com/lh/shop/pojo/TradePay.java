@@ -1,8 +1,9 @@
 package com.lh.shop.pojo;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 
-public class TradePay {
+public class TradePay implements Serializable {
     private Long payId;
 
     private Long orderId;

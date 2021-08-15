@@ -26,9 +26,9 @@ public class OrderApplicationTests {
         order.setGoodsId(goodsId);
         order.setAddress("北京");
         order.setGoodsNumber(1);
-        order.setGoodsPrice(new BigDecimal(1000));
+        order.setGoodsPrice(new BigDecimal(5000));
         order.setShippingFee(BigDecimal.ZERO);
-        order.setPayAmount(new BigDecimal(1000));
+        order.setOrderAmount(new BigDecimal(5000));
         order.setMoneyPaid(new BigDecimal(100));
         orderService.confirmOrder(order);
     }

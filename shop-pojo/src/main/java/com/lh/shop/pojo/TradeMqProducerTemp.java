@@ -1,8 +1,9 @@
 package com.lh.shop.pojo;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class TradeMqProducerTemp {
+public class TradeMqProducerTemp implements Serializable {
     private String id;
 
     private String groupName;
