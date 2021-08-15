@@ -2,18 +2,26 @@ package com.lh.order.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.alibaba.dubbo.config.annotation.Service;
+import com.alibaba.fastjson.JSON;
 import com.lh.api.ICouponService;
 import com.lh.api.IGoodsService;
 import com.lh.api.IOrderService;
 import com.lh.api.IUserService;
 import com.lh.constant.ShopCode;
+import com.lh.entity.MQEntity;
 import com.lh.entity.Result;
 import com.lh.exception.CastException;
 import com.lh.order.mapper.TradeOrderMapper;
 import com.lh.shop.pojo.*;
 import com.lh.utils.IDWorker;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.rocketmq.client.exception.MQBrokerException;
+import org.apache.rocketmq.client.exception.MQClientException;
+import org.apache.rocketmq.common.message.Message;
+import org.apache.rocketmq.remoting.exception.RemotingException;
+import org.apache.rocketmq.spring.core.RocketMQTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;
@@ -34,6 +42,13 @@ public class OrderServiceImpl implements IOrderService {
     @Autowired
     private TradeOrderMapper orderMapper;
 
+    @Value ("${mq.order.topic}")
+    private String topic;
+    @Value("${mq.order.tag.cancel}")
+    private String tag;
+    @Autowired
+    private RocketMQTemplate rocketMQTemplate;
+
     @Override
     public Result confirmOrder(TradeOrder order) {
         //1.校验订单
@@ -47,16 +62,36 @@ public class OrderServiceImpl implements IOrderService {
             updateCouponStatus(order);
             //5.使用余额
            reduceMoneyPaid(order);
+
+           //模拟抛出异常
+            CastException.cast(ShopCode.SHOP_FAIL);
+
             //6.确认订单
             updateOrderStatus(order);
             //7.返回成功状态
            return new Result(ShopCode.SHOP_SUCCESS.getSuccess(),ShopCode.SHOP_SUCCESS.getMessage());
         } catch (Exception e) {
             //1.确认订单失败,发送消息
-            
+            MQEntity mqEntity = new MQEntity();
+            mqEntity.setOrderId(orderId);
+            mqEntity.setCouponId(order.getCouponId());
+            mqEntity.setGoodsId(order.getGoodsId());
+            mqEntity.setGoodsNum(order.getGoodsNumber());
+            mqEntity.setUserMoney(order.getMoneyPaid());
+            mqEntity.setUserId(order.getUserId());
+            try {
+                sendCancelOrder(topic,tag,orderId.toString(), JSON.toJSONString(mqEntity));
+            } catch (Exception exception) {
+                log.error("sendCancelOrder error"+exception);
+            }
             //2.返回失败状态
+            return new Result(ShopCode.SHOP_FAIL.getSuccess(), ShopCode.SHOP_FAIL.getMessage());
         }
-        return null;
+    }
+
+    private void sendCancelOrder(String topic, String tag, String orderId, String json) throws Exception {
+        Message message = new Message(topic, tag, orderId, json.getBytes());
+        rocketMQTemplate.getProducer().send(message);
     }
 
     private void updateOrderStatus(TradeOrder order) {

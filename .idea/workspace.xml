@@ -3,35 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1dcf574f-41fa-4879-b4ec-7597fff650ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-coupon-service/src/main/resources/com.lh.coupon.mapper/TradeCouponMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-coupon-service/src/main/resources/com/lh/coupon/mapper/TradeCouponMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-goods-service/src/main/resources/com.lh.goods.mapper/TradeGoodsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-goods-service/src/main/resources/com/lh/goods/mapper/TradeGoodsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-goods-service/src/main/resources/com.lh.goods.mapper/TradeGoodsNumberLogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-goods-service/src/main/resources/com/lh/goods/mapper/TradeGoodsNumberLogMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-order-service/src/main/resources/com.lh.order.mapper/TradeOrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order-service/src/main/resources/com/lh/order/mapper/TradeOrderMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-order-service/src/test/java/com/lh/order/OrderApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order-service/src/test/java/com/lh/order/OrderApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-pay-service/src/main/resources/com.lh.pay.mapper/TradePayMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-pay-service/src/main/resources/com/lh/pay/mapper/TradePayMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-pojo/src/main/java/com/lh/shop/pojo/TradeCoupon.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-pojo/src/main/java/com/lh/shop/pojo/TradeCoupon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-pojo/src/main/java/com/lh/shop/pojo/TradeCouponExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-pojo/src/main/java/com/lh/shop/pojo/TradeCouponExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-pojo/src/main/java/com/lh/shop/pojo/TradeGoods.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-pojo/src/main/java/com/lh/shop/pojo/TradeGoods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-pojo/src/main/java/com/lh/shop/pojo/TradeGoodsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-pojo/src/main/java/com/lh/shop/pojo/TradeGoodsExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-pojo/src/main/java/com/lh/shop/pojo/TradeGoodsNumberLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-pojo/src/main/java/com/lh/shop/pojo/TradeGoodsNumberLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-pojo/src/main/java/com/lh/shop/pojo/TradeGoodsNumberLogExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-pojo/src/main/java/com/lh/shop/pojo/TradeGoodsNumberLogExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-pojo/src/main/java/com/lh/shop/pojo/TradeGoodsNumberLogKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-pojo/src/main/java/com/lh/shop/pojo/TradeGoodsNumberLogKey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-pojo/src/main/java/com/lh/shop/pojo/TradeMqConsumerLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-pojo/src/main/java/com/lh/shop/pojo/TradeMqConsumerLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-pojo/src/main/java/com/lh/shop/pojo/TradeMqConsumerLogExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-pojo/src/main/java/com/lh/shop/pojo/TradeMqConsumerLogExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-pojo/src/main/java/com/lh/shop/pojo/TradeMqConsumerLogKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-pojo/src/main/java/com/lh/shop/pojo/TradeMqConsumerLogKey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-pojo/src/main/java/com/lh/shop/pojo/TradeMqProducerTemp.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-pojo/src/main/java/com/lh/shop/pojo/TradeMqProducerTemp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-pojo/src/main/java/com/lh/shop/pojo/TradeMqProducerTempExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-pojo/src/main/java/com/lh/shop/pojo/TradeMqProducerTempExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-pojo/src/main/java/com/lh/shop/pojo/TradeOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-pojo/src/main/java/com/lh/shop/pojo/TradeOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-pojo/src/main/java/com/lh/shop/pojo/TradeOrderExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-pojo/src/main/java/com/lh/shop/pojo/TradeOrderExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-pojo/src/main/java/com/lh/shop/pojo/TradePay.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-pojo/src/main/java/com/lh/shop/pojo/TradePay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-pojo/src/main/java/com/lh/shop/pojo/TradePayExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-pojo/src/main/java/com/lh/shop/pojo/TradePayExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-pojo/src/main/java/com/lh/shop/pojo/TradeUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-pojo/src/main/java/com/lh/shop/pojo/TradeUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-pojo/src/main/java/com/lh/shop/pojo/TradeUserExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-pojo/src/main/java/com/lh/shop/pojo/TradeUserExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-pojo/src/main/java/com/lh/shop/pojo/TradeUserMoneyLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-pojo/src/main/java/com/lh/shop/pojo/TradeUserMoneyLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-pojo/src/main/java/com/lh/shop/pojo/TradeUserMoneyLogExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-pojo/src/main/java/com/lh/shop/pojo/TradeUserMoneyLogExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-pojo/src/main/java/com/lh/shop/pojo/TradeUserMoneyLogKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-pojo/src/main/java/com/lh/shop/pojo/TradeUserMoneyLogKey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user-service/src/main/resources/com.lh.user.mapper/TradeUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user-service/src/main/resources/com/lh/user/mapper/TradeUserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user-service/src/main/resources/com.lh.user.mapper/TradeUserMoneyLogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user-service/src/main/resources/com/lh/user/mapper/TradeUserMoneyLogMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-order-service/src/main/java/com/lh/order/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order-service/src/main/java/com/lh/order/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-order-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +190,7 @@
       <option name="presentableId" value="Default" />
       <updated>1628958723018</updated>
       <workItem from="1628958727088" duration="4339000" />
-      <workItem from="1628963089082" duration="19140000" />
+      <workItem from="1628963089082" duration="21079000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1628999305749</created>
@@ -233,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629007327132</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="解决下单保存，注意resource路径问题">
+      <created>1629009422224</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1629009422224</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +226,8 @@
     </ignored-roots>
     <MESSAGE value="第一次提交" />
     <MESSAGE value="确认订单" />
-    <option name="LAST_COMMIT_MESSAGE" value="确认订单" />
+    <MESSAGE value="解决下单保存，注意resource路径问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="解决下单保存，注意resource路径问题" />
   </component>
   <component name="WindowStateProjectService">
     <state x="328" y="86" key="#Project_Structure" timestamp="1629008918380">
@@ -258,59 +239,67 @@
       <screen x="0" y="25" width="1680" height="969" />
     </state>
     <state x="653" y="218" key="#com.intellij.ide.util.MemberChooser/0.25.1680.969@0.25.1680.969" timestamp="1628969210707" />
-    <state x="321" y="80" key="CommitChangelistDialog2" timestamp="1629007326867">
+    <state x="0" y="80" key="CommitChangelistDialog2" timestamp="1629009421918">
       <screen x="0" y="25" width="1680" height="970" />
     </state>
-    <state x="321" y="80" key="CommitChangelistDialog2/0.25.1680.970@0.25.1680.970" timestamp="1629007326867" />
-    <state width="1638" height="351" key="GridCell.Tab.0.bottom" timestamp="1629009314171">
-      <screen x="0" y="25" width="1680" height="970" />
+    <state x="0" y="80" key="CommitChangelistDialog2/0.25.1680.970@0.25.1680.970" timestamp="1629009421918" />
+    <state width="1638" height="351" key="GridCell.Tab.0.bottom" timestamp="1629011637143">
+      <screen x="0" y="25" width="1680" height="968" />
     </state>
-    <state width="1329" height="347" key="GridCell.Tab.0.bottom/0.25.1680.969@0.25.1680.969" timestamp="1629008672464" />
-    <state width="1638" height="351" key="GridCell.Tab.0.bottom/0.25.1680.970@0.25.1680.970" timestamp="1629009314171" />
-    <state width="1638" height="351" key="GridCell.Tab.0.center" timestamp="1629009314170">
-      <screen x="0" y="25" width="1680" height="970" />
+    <state width="1638" height="351" key="GridCell.Tab.0.bottom/0.25.1680.968@0.25.1680.968" timestamp="1629011637143" />
+    <state width="1638" height="351" key="GridCell.Tab.0.bottom/0.25.1680.969@0.25.1680.969" timestamp="1629010690813" />
+    <state width="1638" height="351" key="GridCell.Tab.0.bottom/0.25.1680.970@0.25.1680.970" timestamp="1629009450585" />
+    <state width="1638" height="351" key="GridCell.Tab.0.center" timestamp="1629011637142">
+      <screen x="0" y="25" width="1680" height="968" />
     </state>
-    <state width="1329" height="347" key="GridCell.Tab.0.center/0.25.1680.969@0.25.1680.969" timestamp="1629002118468" />
-    <state width="1638" height="351" key="GridCell.Tab.0.center/0.25.1680.970@0.25.1680.970" timestamp="1629009314170" />
-    <state width="1638" height="351" key="GridCell.Tab.0.left" timestamp="1629009314169">
-      <screen x="0" y="25" width="1680" height="970" />
+    <state width="1638" height="351" key="GridCell.Tab.0.center/0.25.1680.968@0.25.1680.968" timestamp="1629011637142" />
+    <state width="1638" height="351" key="GridCell.Tab.0.center/0.25.1680.969@0.25.1680.969" timestamp="1629010690812" />
+    <state width="1638" height="351" key="GridCell.Tab.0.center/0.25.1680.970@0.25.1680.970" timestamp="1629009450584" />
+    <state width="1638" height="351" key="GridCell.Tab.0.left" timestamp="1629011637142">
+      <screen x="0" y="25" width="1680" height="968" />
     </state>
-    <state width="1329" height="347" key="GridCell.Tab.0.left/0.25.1680.969@0.25.1680.969" timestamp="1629002118467" />
-    <state width="1638" height="351" key="GridCell.Tab.0.left/0.25.1680.970@0.25.1680.970" timestamp="1629009314169" />
-    <state width="1638" height="351" key="GridCell.Tab.0.right" timestamp="1629009314170">
-      <screen x="0" y="25" width="1680" height="970" />
+    <state width="1638" height="351" key="GridCell.Tab.0.left/0.25.1680.968@0.25.1680.968" timestamp="1629011637142" />
+    <state width="1638" height="351" key="GridCell.Tab.0.left/0.25.1680.969@0.25.1680.969" timestamp="1629010690811" />
+    <state width="1638" height="351" key="GridCell.Tab.0.left/0.25.1680.970@0.25.1680.970" timestamp="1629009450583" />
+    <state width="1638" height="351" key="GridCell.Tab.0.right" timestamp="1629011637143">
+      <screen x="0" y="25" width="1680" height="968" />
     </state>
-    <state width="1329" height="347" key="GridCell.Tab.0.right/0.25.1680.969@0.25.1680.969" timestamp="1629008672464" />
-    <state width="1638" height="351" key="GridCell.Tab.0.right/0.25.1680.970@0.25.1680.970" timestamp="1629009314170" />
-    <state width="1329" height="347" key="GridCell.Tab.1.bottom" timestamp="1629009019208">
-      <screen x="0" y="25" width="1680" height="970" />
+    <state width="1638" height="351" key="GridCell.Tab.0.right/0.25.1680.968@0.25.1680.968" timestamp="1629011637143" />
+    <state width="1638" height="351" key="GridCell.Tab.0.right/0.25.1680.969@0.25.1680.969" timestamp="1629010690812" />
+    <state width="1638" height="351" key="GridCell.Tab.0.right/0.25.1680.970@0.25.1680.970" timestamp="1629009450584" />
+    <state width="1329" height="347" key="GridCell.Tab.1.bottom" timestamp="1629011632560">
+      <screen x="0" y="25" width="1680" height="968" />
     </state>
-    <state width="1329" height="347" key="GridCell.Tab.1.bottom/0.25.1680.969@0.25.1680.969" timestamp="1629008672466" />
+    <state width="1329" height="347" key="GridCell.Tab.1.bottom/0.25.1680.968@0.25.1680.968" timestamp="1629011632560" />
+    <state width="1329" height="347" key="GridCell.Tab.1.bottom/0.25.1680.969@0.25.1680.969" timestamp="1629009579338" />
     <state width="1329" height="347" key="GridCell.Tab.1.bottom/0.25.1680.970@0.25.1680.970" timestamp="1629009019208" />
-    <state width="1329" height="347" key="GridCell.Tab.1.center" timestamp="1629009019207">
-      <screen x="0" y="25" width="1680" height="970" />
+    <state width="1329" height="347" key="GridCell.Tab.1.center" timestamp="1629011632559">
+      <screen x="0" y="25" width="1680" height="968" />
     </state>
-    <state width="1329" height="347" key="GridCell.Tab.1.center/0.25.1680.969@0.25.1680.969" timestamp="1629008672465" />
+    <state width="1329" height="347" key="GridCell.Tab.1.center/0.25.1680.968@0.25.1680.968" timestamp="1629011632559" />
+    <state width="1329" height="347" key="GridCell.Tab.1.center/0.25.1680.969@0.25.1680.969" timestamp="1629009579338" />
     <state width="1329" height="347" key="GridCell.Tab.1.center/0.25.1680.970@0.25.1680.970" timestamp="1629009019207" />
-    <state width="1329" height="347" key="GridCell.Tab.1.left" timestamp="1629009019207">
-      <screen x="0" y="25" width="1680" height="970" />
+    <state width="1329" height="347" key="GridCell.Tab.1.left" timestamp="1629011632558">
+      <screen x="0" y="25" width="1680" height="968" />
     </state>
-    <state width="1329" height="347" key="GridCell.Tab.1.left/0.25.1680.969@0.25.1680.969" timestamp="1629008672465" />
+    <state width="1329" height="347" key="GridCell.Tab.1.left/0.25.1680.968@0.25.1680.968" timestamp="1629011632558" />
+    <state width="1329" height="347" key="GridCell.Tab.1.left/0.25.1680.969@0.25.1680.969" timestamp="1629009579337" />
     <state width="1329" height="347" key="GridCell.Tab.1.left/0.25.1680.970@0.25.1680.970" timestamp="1629009019207" />
-    <state width="1329" height="347" key="GridCell.Tab.1.right" timestamp="1629009019207">
-      <screen x="0" y="25" width="1680" height="970" />
+    <state width="1329" height="347" key="GridCell.Tab.1.right" timestamp="1629011632559">
+      <screen x="0" y="25" width="1680" height="968" />
     </state>
-    <state width="1329" height="347" key="GridCell.Tab.1.right/0.25.1680.969@0.25.1680.969" timestamp="1629008672465" />
+    <state width="1329" height="347" key="GridCell.Tab.1.right/0.25.1680.968@0.25.1680.968" timestamp="1629011632559" />
+    <state width="1329" height="347" key="GridCell.Tab.1.right/0.25.1680.969@0.25.1680.969" timestamp="1629009579338" />
     <state width="1329" height="347" key="GridCell.Tab.1.right/0.25.1680.970@0.25.1680.970" timestamp="1629009019207" />
     <state x="349" y="144" key="SettingsEditor" timestamp="1628998357653">
       <screen x="0" y="25" width="1680" height="970" />
     </state>
     <state x="349" y="144" key="SettingsEditor/0.25.1680.969@0.25.1680.969" timestamp="1628964242210" />
     <state x="349" y="144" key="SettingsEditor/0.25.1680.970@0.25.1680.970" timestamp="1628998357653" />
-    <state x="440" y="245" key="Vcs.Push.Dialog.v2" timestamp="1629007328671">
+    <state x="440" y="245" key="Vcs.Push.Dialog.v2" timestamp="1629009424195">
       <screen x="0" y="25" width="1680" height="970" />
     </state>
-    <state x="440" y="245" key="Vcs.Push.Dialog.v2/0.25.1680.970@0.25.1680.970" timestamp="1629007328671" />
+    <state x="440" y="245" key="Vcs.Push.Dialog.v2/0.25.1680.970@0.25.1680.970" timestamp="1629009424195" />
     <state x="541" y="234" width="597" height="548" key="find.popup" timestamp="1629008223082">
       <screen x="0" y="25" width="1680" height="970" />
     </state>
