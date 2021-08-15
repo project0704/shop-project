@@ -67,7 +67,7 @@ public class UserServiceImpl implements IUserService {
                 CastException.cast(ShopCode.SHOP_ORDER_PAY_STATUS_NO_PAY);
             }
             TradeUserMoneyLogExample userMoneyLogExample = new TradeUserMoneyLogExample();
-            TradeUserMoneyLogExample.Criteria criteria1 = userMoneyLogExample.createCriteria();
+            criteria = userMoneyLogExample.createCriteria();
             criteria.andOrderIdEqualTo(userMoneyLog.getOrderId());
             criteria.andUserIdEqualTo(userMoneyLog.getUserId());
             criteria.andMoneyLogTypeEqualTo(ShopCode.SHOP_USER_MONEY_REFUND.getCode());
@@ -75,7 +75,7 @@ public class UserServiceImpl implements IUserService {
             if(r>0){
                 CastException.cast(ShopCode.SHOP_USER_MONEY_REFUND_ALREADY);
             }
-            user.setUserMoney(new BigDecimal(user.getUserMoney()).subtract(userMoneyLog.getUseMoney()).longValue());
+            user.setUserMoney(new BigDecimal(user.getUserMoney()).add(userMoneyLog.getUseMoney()).longValue());
             tradeUserMapper.updateByPrimaryKey(user);
         }
         userMoneyLog.setCreateTime(new Date());
