@@ -15,15 +15,13 @@ import com.lh.order.mapper.TradeOrderMapper;
 import com.lh.shop.pojo.*;
 import com.lh.utils.IDWorker;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.rocketmq.client.exception.MQBrokerException;
-import org.apache.rocketmq.client.exception.MQClientException;
 import org.apache.rocketmq.common.message.Message;
-import org.apache.rocketmq.remoting.exception.RemotingException;
 import org.apache.rocketmq.spring.core.RocketMQTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.Resource;
 import java.math.BigDecimal;
 import java.util.Date;
 
@@ -39,7 +37,7 @@ public class OrderServiceImpl implements IOrderService {
     private IDWorker idWorker;
     @Reference
     private ICouponService couponService;
-    @Autowired
+    @Resource
     private TradeOrderMapper orderMapper;
 
     @Value ("${mq.order.topic}")
@@ -64,8 +62,7 @@ public class OrderServiceImpl implements IOrderService {
            reduceMoneyPaid(order);
 
            //模拟抛出异常
-            CastException.cast(ShopCode.SHOP_FAIL);
-
+           // CastException.cast(ShopCode.SHOP_FAIL);
             //6.确认订单
             updateOrderStatus(order);
             //7.返回成功状态
@@ -236,5 +233,15 @@ public class OrderServiceImpl implements IOrderService {
         }
 
         log.info("校验订单通过");
+    }
+
+    @Override
+    public TradeOrder findOne(Long orderId) {
+        return orderMapper.selectByPrimaryKey(orderId);
+    }
+
+    @Override
+    public void changeOrderStatus(TradeOrder order) {
+        orderMapper.updateByPrimaryKeySelective(order);
     }
 }

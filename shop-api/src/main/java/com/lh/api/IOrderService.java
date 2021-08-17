@@ -16,4 +16,8 @@ public interface IOrderService {
      * @return Result
      */
     Result confirmOrder(TradeOrder order);
+
+    TradeOrder findOne(Long orderId);
+
+    void changeOrderStatus(TradeOrder order);
 }

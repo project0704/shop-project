@@ -2,7 +2,6 @@ package com.lh.order;
 
 import com.alibaba.dubbo.spring.boot.annotation.EnableDubboConfiguration;
 import com.lh.utils.IDWorker;
-import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
